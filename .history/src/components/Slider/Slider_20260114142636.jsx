@@ -1,7 +1,7 @@
-import clsx from 'clsx'
 import 'swiper/css'
 import './Slider.scss'
 import SliderNavigation from './components/SliderNavigation'
+import clsx from 'clsx'
 
 const defaultSliderParams = {
   slidesPerView: 5,
@@ -25,11 +25,9 @@ const defaultSliderParams = {
     },
     1024: {
       spaceBetween: 20,
-      allowTouchMove: false,
     },
     1441: {
       spaceBetween: 30,
-      allowTouchMove: false,
     },
   },
 }
@@ -63,13 +61,6 @@ const Slider = (props) => {
       </div>
       {!navigationTargetElementId && (
         <SliderNavigation className="slider__navigation" />
-      )}
-
-      {hasScrollbar && (
-        <div
-          className="slider__scrollbar visible-mobile"
-          data-js-slider-scrollbar=""
-        />
       )}
     </div>
   )

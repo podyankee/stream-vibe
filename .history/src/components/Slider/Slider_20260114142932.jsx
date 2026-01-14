@@ -25,11 +25,9 @@ const defaultSliderParams = {
     },
     1024: {
       spaceBetween: 20,
-      allowTouchMove: false,
     },
     1441: {
       spaceBetween: 30,
-      allowTouchMove: false,
     },
   },
 }

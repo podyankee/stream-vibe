@@ -1,6 +1,6 @@
 import getParams from '@/utils/getParams'
 import Swiper from 'swiper'
-import { Navigation, Pagination, Scrollbar } from 'swiper/modules'
+import { Navigation, Pagination } from 'swiper/modules'
 
 const rootSelector = '[data-js-slider]'
 
