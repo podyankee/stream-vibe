@@ -1,0 +1,18 @@
+.category-card {
+	display: inline-flex;
+	flex-direction: column;
+	padding: fluid(30, 20);
+	background-color: var(--color-black-10);
+	border: var(--border);
+	border-radius: var(--border-radius-l);
+
+	@include laptop {
+		border-radius: var(--border-radius-m);
+	}
+
+	&__images {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: ;
+	}
+}

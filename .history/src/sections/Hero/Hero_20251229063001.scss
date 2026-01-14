@@ -1,0 +1,9 @@
+.hero {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+	@include mobile {
+		min-height: 639px;
+	}
+}

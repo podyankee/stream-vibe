@@ -1,0 +1,8 @@
+.slider-navigation {
+	display: flex;
+	align-items: center;
+
+	&--tile {
+		column-gap: fluid-to-laptop;
+	}
+}

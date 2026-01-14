@@ -1,0 +1,7 @@
+.hero {
+	min-height: 100vh;
+
+	@include mobile {
+		min-height: 639px;
+	}
+}

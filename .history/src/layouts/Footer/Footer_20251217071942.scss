@@ -1,0 +1,9 @@
+.footer {
+	background-color: var(--color-black-06);
+
+	&__menu {
+		--footerMenuColumns: 6;
+		display: grid;
+		grid-template-columns: repeat();
+	}
+}

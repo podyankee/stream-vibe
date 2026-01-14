@@ -1,0 +1,25 @@
+.category-card {
+	display: inline-flex;
+	flex-direction: column;
+	padding: fluid(30, 20);
+	background-color: var(--color-black-10);
+	border: var(--border);
+	border-radius: var(--border-radius-l);
+
+	@include laptop {
+		border-radius: var(--border-radius-m);
+	}
+
+	&__images {
+		position: relative;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 5px;
+
+		&::after {
+			@include abs-cover;
+			content: '';
+			background-image: linear-gradient(180deg, rgba(26, 26, 26, 0.00) 0%, #1A1A1A 101.79%);
+		}
+	}
+}

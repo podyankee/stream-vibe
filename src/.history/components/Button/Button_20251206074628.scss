@@ -1,0 +1,22 @@
+.button {
+	display: inline-flex;
+	align-items: center;
+	column-gap: 0.3em;
+	padding: fluid-to-laptop(18, 14) fluid-to-laptop(24, 20);
+	font-weight: 600;
+	color: var(--color-white);
+	background-color: var(--color-red-45);
+	border: none;
+	border-radius: var(--border-radius-s);
+	user-select: none;
+	cursor: pointer;
+
+	@include laptopm {
+		border-radius: var(--border-radius-xs);
+	}
+
+	@include hover {
+		color: var(--color-white);
+		background-color: var(--color-accent);
+	}
+}

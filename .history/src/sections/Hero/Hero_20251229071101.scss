@@ -1,0 +1,26 @@
+.hero {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+	@include mobile {
+		min-height: 639px;
+	}
+
+	&__pano {
+		--heroGradientColorStart: ;
+		--heroGradientColorEnd: ;
+
+		@include flex-center;
+		flex-grow: 1;
+		background: url('../../assets/images/hero/bg.png') 50%/cover;
+		background: linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.00) 100%);
+	}
+
+	&__play-button {
+		padding: 0;
+		background-color: transparent;
+		border: none;
+	}
+}
