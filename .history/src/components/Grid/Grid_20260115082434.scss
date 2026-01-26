@@ -1,0 +1,15 @@
+.grid {
+	--gridColumns: 1;
+
+	display: grid;
+	grid-template-columns: repeat(var(--gtidColumns));
+	gap: fluid-to-laptop(30, 20);
+
+	&--2 {
+		--gridColumns: 2;
+	}
+
+	&--3 {
+		--gridColumns: 3;
+	}
+}

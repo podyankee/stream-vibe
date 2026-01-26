@@ -1,0 +1,21 @@
+.device-card {
+	display: grid;
+	row-gap: fluid(30, 20);
+	padding: fluid(50, 24);
+	border-radius: var(--border-radius-l);
+
+	@include laptop {
+		border-radius: var(--border-radius-m);
+	}
+
+	&__header {
+		display: flex;
+		align-items: center;
+		column-gap: fluid(16, 10);
+	}
+
+	&__image-wrapper {
+		@include flex-center;
+		@include square(fluid(72, 44))
+	}
+}

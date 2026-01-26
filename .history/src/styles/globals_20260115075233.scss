@@ -10,7 +10,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-family: var(--font-family-base), sans-serif;
-	color: var(--color-gray-60);
+	color: var(--color-white);
 	background-color: var(--color-black);
 }
 
@@ -54,21 +54,6 @@ h6,
 	@include fluid-text(20, 16);
 
 	font-weight: 400;
-}
-
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-	color: var(--color-white);
 }
 
 a,
