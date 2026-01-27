@@ -1,7 +1,16 @@
+import clsx from 'clsx'
 import './Content.scss'
 
 export default (props) => {
-  const { children } = props
+  const { children, isResetPaddingTop = false } = props
 
-  return <main className="content">{children}</main>
+  return (
+    <main
+      className={clsx('content', {
+        'content--reset-padding-top': isResetPaddingTop,
+      })}
+    >
+      {children}
+    </main>
+  )
 }
