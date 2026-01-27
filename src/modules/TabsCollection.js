@@ -1,8 +1,10 @@
+import BaseComponent from '@/modules/generic/BaseComponent'
 import getParams from '@/utils/getParams'
+import pxToRem from '@/utils/pxToRem'
 
 const rootSelector = '[data-js-tabs]'
 
-class Tabs {
+class Tabs extends BaseComponent {
   selectors = {
     root: rootSelector,
     navigation: '[data-js-tabs-navigation]',
@@ -13,12 +15,12 @@ class Tabs {
     isActive: 'is-active',
   }
   stateCSSVariables = {
-    activeButtonWidth: '--tabsActiveButtonWidth',
-    activeButtonOffsetLeft: '--tabsActiveButtonOffsetLeft',
+    activeButtonWidth: '--tabsNavigationActiveButtonWidth',
+    activeButtonOffsetLeft: '--tabsNavigationActiveButtonOffsetLeft',
   }
 
   constructor(rootElement) {
-    console.log('Tabs init', rootElement)
+    super()
     this.rootElement = rootElement
     this.params = getParams(this.rootElement, this.selectors.root)
     this.navigationElement = this.params.navigationTargetElementId
@@ -31,13 +33,14 @@ class Tabs {
     this.contentElements = [
       ...this.rootElement.querySelectorAll(this.selectors.content),
     ]
-    this.state = {
+    this.state = this.getProxyState({
       activeTabIndex: this.buttonElements.findIndex(
         ({ ariaSelected }) => ariaSelected
       ),
-    }
+    })
     this.limitTabsIndex = this.buttonElements.length - 1
     this.bindEvents()
+    setTimeout(this.bindObservers, 500)
   }
 
   updateUI() {
@@ -49,6 +52,10 @@ class Tabs {
       buttonElement.classList.toggle(this.stateClasses.isActive, isActive)
       buttonElement.ariaSelected = isActive
       buttonElement.tabIndex = isActive ? 0 : -1
+
+      if (isActive) {
+        this.updateNavigationCSSVars(buttonElement)
+      }
     })
 
     this.contentElements.forEach((contentElement, index) => {
@@ -58,9 +65,25 @@ class Tabs {
     })
   }
 
+  updateNavigationCSSVars(
+    activeButtonElement = this.buttonElements[this.state.activeTabIndex]
+  ) {
+    const { width, left } = activeButtonElement.getBoundingClientRect()
+    const offsetLeft =
+      left - this.navigationElement.getBoundingClientRect().left
+
+    this.navigationElement.style.setProperty(
+      this.stateCSSVariables.activeButtonWidth,
+      `${pxToRem(width)}rem`
+    )
+    this.navigationElement.style.setProperty(
+      this.stateCSSVariables.activeButtonOffsetLeft,
+      `${pxToRem(offsetLeft)}rem`
+    )
+  }
+
   activateTab(newTabIndex) {
     this.state.activeTabIndex = newTabIndex
-    this.updateUI()
     this.buttonElements[newTabIndex].focus()
   }
 
@@ -89,7 +112,6 @@ class Tabs {
 
   onButtonClick(buttonIndex) {
     this.state.activeTabIndex = buttonIndex
-    this.updateUI()
   }
 
   onKeyDown = (event) => {
@@ -137,6 +159,15 @@ class Tabs {
       buttonElement.addEventListener('click', () => this.onButtonClick(index))
     })
     document.addEventListener('keydown', this.onKeyDown)
+  }
+  onResize = () => {
+    this.updateNavigationCSSVars()
+  }
+
+  bindObservers = () => {
+    const resizeObserver = new ResizeObserver(this.onResize)
+
+    resizeObserver.observe(this.navigationElement)
   }
 }
 
