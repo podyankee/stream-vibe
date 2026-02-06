@@ -3,12 +3,21 @@ import clsx from 'clsx'
 import './SliderNavigation.scss'
 
 const SliderNavigation = (props) => {
-  const { className, id, hasPagination = true, mode = '' } = props
+  const {
+    className,
+    id,
+    hasPagination = true,
+    mode = '',
+    position = '',
+    isHiddenMobile,
+  } = props
 
   return (
     <div
       className={clsx(className, 'slider-navigation', {
         [`slider-navigation--${mode}`]: mode,
+        [`slider-navigation--${position}`]: position,
+        'hidden-mobile': isHiddenMobile,
       })}
       id={id}
       data-js-slider-navigation=""
