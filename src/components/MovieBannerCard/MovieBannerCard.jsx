@@ -1,6 +1,6 @@
+import Button from '@/components/Button'
 import { Image } from 'minista'
 import './MovieBannerCard.scss'
-import Button from '@/components/Button'
 
 const MovieBannerCard = (props) => {
   const { title, description, imgSrc } = props
@@ -37,7 +37,7 @@ const MovieBannerCard = (props) => {
             <Button
               mode="black-06"
               iconName="volume"
-              label="Mute"
+              label="Mute "
               isLabelHidden
             />
           </div>

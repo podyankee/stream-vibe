@@ -4,11 +4,19 @@ import './Tabs.scss'
 import TabsNavigation from './components/TabsNavigation'
 
 const Tabs = (props) => {
-  const { className, title, items, navigationTargetElementId = null } = props
+  const {
+    className,
+    title,
+    items,
+    navigationTargetElementId = null,
+    isEnabledOnlyOnMobile = false,
+  } = props
 
   return (
     <div
-      className={clsx(className, 'tabs')}
+      className={clsx(className, 'tabs', {
+        'tabs--enabled-only-on-mobile': isEnabledOnlyOnMobile,
+      })}
       data-js-tabs={JSON.stringify({
         navigationTargetElementId,
       })}
