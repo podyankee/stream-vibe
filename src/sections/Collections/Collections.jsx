@@ -6,6 +6,7 @@ import Section from '@/layouts/Section'
 import getIdFromTitle from '@/utils/getIdFromTitle'
 import collectionGroups from './collectionGroups'
 import './Collections.scss'
+import MovieCard from '@/components/MovieCard'
 
 const Collections = () => {
   return (
@@ -22,7 +23,8 @@ const Collections = () => {
               {collectionGroup.title}
             </p>
             {collectionGroup.items.map((collectionItem, index) => {
-              const { title, categoryItems, sliderParams } = collectionItem
+              const { title, categoryItems, movieItems, sliderParams } =
+                collectionItem
 
               const titleFormatted = `${getIdFromTitle(collectionGroup.title)}-${getIdFromTitle(title)}`
 
@@ -45,9 +47,12 @@ const Collections = () => {
                     navigationTargetElementId={sliderNavigationId}
                     isBeyondTheViewportOnMobileS
                   >
-                    {categoryItems.map((categoryItem, index) => (
+                    {categoryItems?.map((categoryItem, index) => (
                       <CategoryCard {...categoryItem} key={index} />
-                    ))}
+                    )) ??
+                      movieItems?.map((movieItem, index) => (
+                        <MovieCard {...movieItem} key={index} />
+                      ))}
                   </Slider>
                 </Section>
               )
