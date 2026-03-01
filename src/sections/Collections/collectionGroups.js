@@ -207,6 +207,478 @@ const collectionGroups = [
           },
         },
       },
+      {
+        title: 'Trending Now',
+        movieItems: [
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/2.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/3.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/4.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/5.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/2.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/3.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/4.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/5.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/2.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/3.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/4.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/5.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/2.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/3.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/4.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/5.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+        ],
+      },
+      {
+        title: 'New Releases',
+        movieItems: [
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/2.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/3.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/4.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/5.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/2.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/3.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/4.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/5.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/2.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/3.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/4.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/5.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/2.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/3.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/4.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/5.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04014',
+            },
+          },
+        ],
+      },
+      {
+        title: 'Must Watch Movies',
+        movieItems: [
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 5,
+              label: '20k',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 3.5,
+              label: '20k',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4,
+              label: '20k',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            },
+          },
+        ],
+        sliderParams: {
+          slidesPerView: 4,
+          slidesPerGroup: 4,
+          spaceBetween: 30,
+          breakpoints: {
+            0: {
+              slidesPerView: 1.58,
+              slidesPerGroup: 1,
+              spaceBetween: 20,
+            },
+            481: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              slidesPerGroup: 3,
+              spaceBetween: 20,
+            },
+            1024: {
+              spaceBetween: 20,
+              allowTouchMove: false,
+            },
+            1441: {
+              spaceBetween: 30,
+              allowTouchMove: false,
+            },
+          },
+        },
+      },
     ],
   },
   {
@@ -381,6 +853,300 @@ const collectionGroups = [
               '/src/assets/images/categories/drama/3.jpg',
               '/src/assets/images/categories/drama/4.jpg',
             ],
+          },
+        ],
+        sliderParams: {
+          slidesPerView: 4,
+          slidesPerGroup: 4,
+          spaceBetween: 30,
+          breakpoints: {
+            0: {
+              slidesPerView: 1.58,
+              slidesPerGroup: 1,
+              spaceBetween: 20,
+            },
+            481: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              slidesPerGroup: 3,
+              spaceBetween: 20,
+            },
+            1024: {
+              spaceBetween: 20,
+              allowTouchMove: false,
+            },
+            1441: {
+              spaceBetween: 30,
+              allowTouchMove: false,
+            },
+          },
+        },
+      },
+      {
+        title: 'Trending Shows Now',
+        movieItems: [
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+        ],
+        sliderParams: {
+          slidesPerView: 4,
+          slidesPerGroup: 4,
+          spaceBetween: 30,
+          breakpoints: {
+            0: {
+              slidesPerView: 1.58,
+              slidesPerGroup: 1,
+              spaceBetween: 20,
+            },
+            481: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              slidesPerGroup: 3,
+              spaceBetween: 20,
+            },
+            1024: {
+              spaceBetween: 20,
+              allowTouchMove: false,
+            },
+            1441: {
+              spaceBetween: 30,
+              allowTouchMove: false,
+            },
+          },
+        },
+      },
+      {
+        title: 'New Released Shows',
+        movieItems: [
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
           },
         ],
         sliderParams: {
