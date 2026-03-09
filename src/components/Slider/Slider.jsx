@@ -1,7 +1,7 @@
-import clsx from 'clsx'
 import 'swiper/css'
 import './Slider.scss'
 import SliderNavigation from './components/SliderNavigation'
+import clsx from 'clsx'
 
 const defaultSliderParams = {
   slidesPerView: 5,
@@ -42,6 +42,7 @@ const Slider = (props) => {
     isBeyondTheViewportOnMobileS,
     hasScrollbarOnMobile = true,
     navigationPosition = '',
+    navigationMode,
     isNavigationHiddenMobile = true,
   } = props
   return (
@@ -65,6 +66,7 @@ const Slider = (props) => {
       </div>
       {!navigationTargetElementId && (
         <SliderNavigation
+          mode={navigationMode}
           className="slider__navigation"
           position={navigationPosition}
           isHiddenMobile={isNavigationHiddenMobile}

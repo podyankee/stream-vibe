@@ -10,6 +10,7 @@ const SliderNavigation = (props) => {
     mode = '',
     position = '',
     isHiddenMobile,
+    buttonMode = 'black-10',
   } = props
 
   return (

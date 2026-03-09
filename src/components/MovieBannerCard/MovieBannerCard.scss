@@ -1,4 +1,6 @@
 .movie-banner-card {
+	position: relative;
+	overflow: hidden;
 	text-align: center;
 	border: var(--border);
 	border-radius: var(--border-radius);
@@ -21,6 +23,10 @@
 
 		@include mobile {
 			padding-block: 16px;
+		}
+
+		&--small-padding-y {
+			padding-block: fluid-to-laptop(20, 16);
 		}
 	}
 
