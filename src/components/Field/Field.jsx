@@ -1,15 +1,16 @@
 import clsx from 'clsx'
 import './Field.scss'
-import { getIdFromTitle } from '@/utils/getIdFromTitle'
+import getIdFromTitle from '@/utils/getIdFromTitle'
 
 const Field = (props) => {
   const {
     className,
-    id = getIdFromTitle(props),
+    id = getIdFromTitle(props.label),
     label,
     type,
     placeholder,
     isRequired,
+    inputMode,
   } = props
 
   const Component = type === 'textarea' ? 'textarea' : 'input'
@@ -26,11 +27,12 @@ const Field = (props) => {
       </label>
       <div className="field__body">
         <Component
-          className="fieldControl"
+          className="field__control"
           id={id}
           type={type}
-          placeholder="placeholder"
+          placeholder={placeholder}
           required={isRequired}
+          inputMode={inputMode}
         />
       </div>
     </div>
