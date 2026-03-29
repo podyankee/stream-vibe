@@ -7,7 +7,6 @@ class InputMask {
   selectors = {
     root: rootSelector,
   }
-
   constructor(rootElement) {
     this.rootElement = rootElement
     this.init()
@@ -17,16 +16,14 @@ class InputMask {
     const mask = this.rootElement.getAttribute(
       getAttrNameFromSelector(this.selectors.root)
     )
-
     IMask(this.rootElement, { mask })
   }
 }
 
-class InputMaskCollection {
+class inputMaskCollection {
   constructor() {
     this.init()
   }
-
   init() {
     document.querySelectorAll(rootSelector).forEach((element) => {
       new InputMask(element)
@@ -34,4 +31,4 @@ class InputMaskCollection {
   }
 }
 
-export default InputMaskCollection
+export default inputMaskCollection
